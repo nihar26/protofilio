@@ -191,6 +191,7 @@ img {
 
 .home{
   height: calc(100vh - 3rem);
+  row-gap: 2em;
 
 }
 .home__data{
@@ -204,6 +205,9 @@ img {
 }
 .home__title-color{
   color: var(--first-color);
+}
+.second__title{
+  font-size: var(--normal-font-size);
 }
 .home__social{
   display: flex;
@@ -220,7 +224,7 @@ img {
 }
 .home__img{
   position: absolute;
-  right: 0;
+  right: 2em;
   bottom: 0;
   width: 295px;
 }
